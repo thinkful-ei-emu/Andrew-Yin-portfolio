@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+input, textarea {
+  margin: 5px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  form {
+    width: 500px;
+  }
+  input, textarea {
+    margin: 10px;
+  }
+}

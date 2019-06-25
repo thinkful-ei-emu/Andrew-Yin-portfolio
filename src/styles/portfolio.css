@@ -1,0 +1,67 @@
+.pageQuote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+}
+.projectShowcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  height: 50px;
+}
+
+.projectThumbnail {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  height: 250px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.projectName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 25px;
+}
+
+.linkSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) {
+  .projectShowcase {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .projectHeader {
+    margin-bottom: 50px;
+  }
+  .projectThumbnail {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projectThumbnail {
+    height: 350px;
+    width: 450px;  
+  }
+}
